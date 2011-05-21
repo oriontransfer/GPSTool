@@ -1,0 +1,17 @@
+= GPSTool
+
+Author::    Samuel Williams (http://www.oriontransfer.co.nz)
+Copyright:: Copyright (c) 2011 Samuel Williams
+License::   MIT
+
+GPSTool provides infrastructure to read data from physical GPS devices or files, filter and output data in a variety of different formats. As part of this it also provides a variety of classes for dealing with GPS data
+
+== Device Support
+
+* RBT-2300
+
+== File Format Support
+
+* CSV
+* GPX
+* KML

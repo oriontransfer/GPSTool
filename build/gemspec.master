@@ -1,0 +1,18 @@
+
+Dir.chdir("../") do
+	require 'lib/gpstool/version'
+
+	Gem::Specification.new do |s|
+		s.name = "gpstool"
+		s.version = GPSTool::VERSION::STRING
+		s.summary = "A framework for processing GPS data."
+		s.homepage = "http://www.oriontransfer.co.nz/projects/GPSTool"
+		s.has_rdoc = true
+		s.authors = ["Samuel Williams"]
+		s.files = FileList["{lib,bin}/**/*"] + ["README.rdoc"]
+
+		s.extra_rdoc_files = ["README.rdoc"]
+		s.rdoc_options << '--main' << 'README.rdoc'
+	end
+end
+
