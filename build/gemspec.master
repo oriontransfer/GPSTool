@@ -11,6 +11,8 @@ Dir.chdir("../") do
 		s.authors = ["Samuel Williams"]
 		s.files = FileList["{lib,bin}/**/*"] + ["README.rdoc"]
 
+		s.executables << "gps-import-rbt-2300"
+
 		s.extra_rdoc_files = ["README.rdoc"]
 		s.rdoc_options << '--main' << 'README.rdoc'
 	end

@@ -2,10 +2,8 @@
 # Copyright (c) 2011 Samuel G. D. Williams. <http://www.oriontransfer.co.nz>
 # See <LICENSE.txt> for licensing details.
 
-require 'gpstool/world-point'
-require 'gpstool/message'
-
-module GPSTool
-	
+class Numeric
+	def to_radians
+		self.to_f / 180.0 * Math::PI
+	end
 end
-
